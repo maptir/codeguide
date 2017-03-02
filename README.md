@@ -1,7 +1,7 @@
 #Codeguide
 ##Don't Repeat Yourself
 
-	This principle maybe it's the most important principle to writing a good code.
+This principle maybe it's the most important principle to writing a good code.
 Don't repeat yourself mean that you should not write code twice. There are many reasons that you should DRY.
 When you write the code and want to use this code again you maybe just copy and paste the code yes it possible to use
 it but when you need to modify that code you need to go and find where did you copy and paste this code and modify it 
@@ -25,7 +25,7 @@ Example : [Click here](/src/codeguide/Dry_example.java)
 
 ##Avoid Creating a YAGNI (You aren’t going to need it)
 
-	To avoid create a YAGNI it's not a big trouble to creating something you not gonna need it but if you don't need it 
+To avoid create a YAGNI it's not a big trouble to creating something you not gonna need it but if you don't need it 
 why should you create it ? Some of them are the function that you don't even use it in your code it can make you confuse
 and it also waste your time to make if you're not going to use this you can save more time to do anything that have some 
 thing better than write the code that YAGNI! So you should write code only what you need.
