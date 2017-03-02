@@ -34,12 +34,13 @@ thing better than write the code that YAGNI! So you should write code only what 
 	Ex.
 	```java
 	public static void main(String[] args) {
+		```java
 		String name = "Map";
 		int age = 19;
 		int num = 0;
 		String[] favSong;
 		boolean sleep;
-		
+		```
 		System.out.println(name +" "+ age);
 	}
 	```
