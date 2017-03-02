@@ -8,8 +8,7 @@ it but when you need to modify that code you need to go and find where did you c
 everywhere in your code if you forget to modify your code can have an error because only one line of code that you repeat it!
 	
 	Ex.
-```java
-	double radius = 5;
+```javadouble radius = 5;
 	public double calArea(){
 		return Math.PI*radius*radius;
 	}
@@ -32,8 +31,7 @@ and it also waste your time to make if you're not going to use this you can save
 thing better than write the code that YAGNI! So you should write code only what you need.
 	
 	Ex.
-```java
-	public static void main(String[] args) {
+```javapublic static void main(String[] args) {
 		String name = "Map";
 		int age = 19;
 		int num = 0;
