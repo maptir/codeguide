@@ -22,7 +22,7 @@ everywhere in your code if you forget to modify your code can have an error beca
 	You can see from the code above that some code are same. In this example I must call calArea() in 
 	printArea() first to DRY ! More example down here.
 	
-Example : [Click here](/src/codeguide/Dry_example.java)
+Example : [EX](/src/codeguide/Dry_example.java)
 
 ##Avoid Creating a YAGNI (You aren’t going to need it)
 
@@ -46,6 +46,6 @@ thing better than write the code that YAGNI! So you should write code only what 
 	You can see in main I declare many attribute but I use only 2 of that so if you not going to use it 
 	right now so don't write it because YAGNI ! More example down here.
 
-Example : [Click here](/src/codeguide/Yagni_example.java)
+Example : [EX](/src/codeguide/Yagni_example.java)
 
-Reference : http://www.artima.com/weblogs/viewpost.jsp?thread=331531
+Reference : [REF](http://www.artima.com/weblogs/viewpost.jsp?thread=331531)
