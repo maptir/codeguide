@@ -8,7 +8,7 @@ it but when you need to modify that code you need to go and find where did you c
 everywhere in your code if you forget to modify your code can have an error because only one line of code that you repeat it!
 	
 	Ex.
-	```java
+```java
 	double radius = 5;
 	public double calArea(){
 		return Math.PI*radius*radius;
@@ -18,7 +18,7 @@ everywhere in your code if you forget to modify your code can have an error beca
 		double area = Math.PI*radius*radius;
 		System.out.println(area);
 	}
-	```
+```
 	You can see from the code above that some code are same. In this example I must call calArea() in 
 	printArea() first to DRY ! More example down here.
 	
@@ -32,18 +32,16 @@ and it also waste your time to make if you're not going to use this you can save
 thing better than write the code that YAGNI! So you should write code only what you need.
 	
 	Ex.
-	```java
+```java
 	public static void main(String[] args) {
-		```java
 		String name = "Map";
 		int age = 19;
 		int num = 0;
 		String[] favSong;
 		boolean sleep;
-		```
 		System.out.println(name +" "+ age);
 	}
-	```
+```
 	You can see in main I declare many attribute but I use only 2 of that so if you not going to use it 
 	right now so don't write it because YAGNI ! More example down here.
 
